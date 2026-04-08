@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prompt>
+  <Title>Example Prompt Title</Title>
+  <Creator>imron GTK thai</Creator>
+  <Confidence>0.90</Confidence>
+  <Tags>persona,example,usage</Tags>
+  <Context>Short context description (optional)</Context>
+  <Objective>Clear objective (e.g., "Summarize X in 150 words")</Objective>
+  <Style>Technical</Style>
+  <Tone>Formal</Tone>
+  <Audience>Non-technical managers</Audience>
+  <Response>Markdown paragraph</Response>
+  <Grounding_Grammar>
+    <Grounding>
+      - ตรวจสอบความถูกต้องของข้อมูลและแนบ Link อ้างอิงแหล่งที่มาทุกครั้ง
+      - ป้องกัน Hallucination โดยยึดถือข้อมูลจริงที่สืบค้นได้เป็นหลัก
+    </Grounding>
+    <Grammar>
+      - ตรวจสอบตัวสะกด วรรณยุกต์ภาษาไทย และตัดคำฟุ่มเฟือยให้เนื้อหาเป็น High Signal
+      - รักษาภาษาระดับกึ่งทางการและใช้ระบบ Self-Correction ก่อนแสดงผล
+    </Grammar>
+  </Grounding_Grammar>
+  <ExampleInput>Example input text here.</ExampleInput>
+  <ExampleOutput>Expected example output here.</ExampleOutput>
+</Prompt>
